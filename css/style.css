@@ -1,0 +1,56 @@
+body {
+	margin-top: 50px;
+	color: black;
+	font-family: 'Old Standard TT', serif;
+}
+
+.jumbotron {
+	background: linear-gradient(#595959, #7F7F7F, #A5A5A5, #7F7F7F, #595959);
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+h2 {
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+.thumbnail img {
+	height: 90%;
+	width: 90%;
+	transition: all 0.3s;
+}
+
+.thumbnail img:hover {
+	transform: scale(1.01);
+}
+
+hr {
+	color: black;
+}
+
+.works h3, h4 {
+	font-weight: bold;
+}
+
+blockquote footer {
+	color: #E8E8EE;
+}
+
+hr.style1 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+hr.style1:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	color: #8c8b8b;
+	font-size: 18px;
+	transform: rotate(60deg);
+}
